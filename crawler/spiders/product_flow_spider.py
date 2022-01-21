@@ -34,7 +34,6 @@ class ProductFlowSpiderSpider(scrapy.Spider):
             )
 
     def access_category(self, response: Response):
-        # import ipdb; ipdb.set_trace()
         category = self.category_model(response=response)
         for page_link in category.get_pages_links():
             yield Request(

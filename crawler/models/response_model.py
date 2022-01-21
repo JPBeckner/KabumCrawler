@@ -8,8 +8,6 @@ from crawler.sitemap import sitemap
 
 class ResponseModel:
 
-    # name = ''
-
     def __init__(self, response: Union[Selector, Response]) -> None:
         self.response: Union[Selector, Response] = response
         self.sitemap = getattr(sitemap, self.name)

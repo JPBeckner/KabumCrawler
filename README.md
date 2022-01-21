@@ -16,3 +16,7 @@ To execute the project.
 ## Deploy
 
 To deploy the project.
+
+# TODO
+
+Find out how to compose model, and how to organize subsections of sitemap;
